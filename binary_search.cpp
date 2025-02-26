@@ -18,7 +18,7 @@
 void binarysearch(std::vector <int> a, int target){
     int low = 0;
     int high = a.size() - 1;
-    while(low<high){
+    while(low<=high){
         int mid = low + (high-low)/2;
         if(a[mid] == target){
             std::cout << "The target number is: " << target << '\n';
